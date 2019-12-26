@@ -12,6 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using SB.ProductApi.Database;
+using SB.ProductApi.Database.Repository;
 
 namespace SB.Product.API
 {
@@ -30,6 +31,8 @@ namespace SB.Product.API
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<ProductDatabaseContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("ProductDatabase")));
+
+            services.AddScoped<IProductRepository, ProductRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

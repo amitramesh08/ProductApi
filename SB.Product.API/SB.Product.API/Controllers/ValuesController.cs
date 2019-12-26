@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using SB.ProductApi.Database;
+using SB.ProductApi.Database.Repository;
 
 namespace SB.Product.API.Controllers
 {
@@ -10,11 +12,18 @@ namespace SB.Product.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+        private readonly IProductRepository productRepository;
+
+        public ValuesController(IProductRepository productRepository)
+        {
+            this.productRepository = productRepository;
+        }
         // GET api/values
         [HttpGet]
-        public ActionResult<IEnumerable<string>> Get()
+        public ActionResult<IEnumerable<SB.ProductApi.Database.Models.Product>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return productRepository.GetProducts().ToList();
+            //return new string[] { "value1", "value2" };
         }
 
         // GET api/values/5
