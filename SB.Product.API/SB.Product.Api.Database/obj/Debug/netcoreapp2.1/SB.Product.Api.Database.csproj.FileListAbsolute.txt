@@ -1,0 +1,11 @@
+D:\Src\product-api\ProductApi\SB.Product.API\SB.Product.Api.Database\bin\Debug\netcoreapp2.1\SB.Product.Api.Database.deps.json
+D:\Src\product-api\ProductApi\SB.Product.API\SB.Product.Api.Database\bin\Debug\netcoreapp2.1\SB.Product.Api.Database.dll
+D:\Src\product-api\ProductApi\SB.Product.API\SB.Product.Api.Database\obj\Debug\netcoreapp2.1\SB.Product.Api.Database.csproj.CoreCompileInputs.cache
+D:\Src\product-api\ProductApi\SB.Product.API\SB.Product.Api.Database\obj\Debug\netcoreapp2.1\SB.Product.Api.Database.AssemblyInfoInputs.cache
+D:\Src\product-api\ProductApi\SB.Product.API\SB.Product.Api.Database\obj\Debug\netcoreapp2.1\SB.Product.Api.Database.AssemblyInfo.cs
+D:\Src\product-api\ProductApi\SB.Product.API\SB.Product.Api.Database\bin\Debug\netcoreapp2.1\SB.Product.Api.Database.dll.config
+D:\Src\product-api\ProductApi\SB.Product.API\SB.Product.Api.Database\bin\Debug\netcoreapp2.1\SB.Product.Api.Database.runtimeconfig.json
+D:\Src\product-api\ProductApi\SB.Product.API\SB.Product.Api.Database\bin\Debug\netcoreapp2.1\SB.Product.Api.Database.runtimeconfig.dev.json
+D:\Src\product-api\ProductApi\SB.Product.API\SB.Product.Api.Database\bin\Debug\netcoreapp2.1\SB.Product.Api.Database.pdb
+D:\Src\product-api\ProductApi\SB.Product.API\SB.Product.Api.Database\obj\Debug\netcoreapp2.1\SB.Product.Api.Database.dll
+D:\Src\product-api\ProductApi\SB.Product.API\SB.Product.Api.Database\obj\Debug\netcoreapp2.1\SB.Product.Api.Database.pdb
